@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "components/hello_world.py", line 4, in <module>
+    from test import inference
+  File "/code/components/test.py", line 6, in <module>
+    from utils.config import cfg
+  File "/code/components/utils/config.py", line 1, in <module>
+    from yacs.config import CfgNode as CN 
+ModuleNotFoundError: No module named 'yacs'
